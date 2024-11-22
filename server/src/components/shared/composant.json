@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_composants",
+  "info": {
+    "displayName": "composant",
+    "icon": "pin"
+  },
+  "options": {},
+  "attributes": {
+    "libelle": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    }
+  }
+}

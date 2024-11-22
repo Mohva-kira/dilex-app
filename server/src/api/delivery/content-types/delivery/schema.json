@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deliveries",
+  "info": {
+    "singularName": "delivery",
+    "pluralName": "deliveries",
+    "displayName": "delivery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "statut": {
+      "type": "enumeration",
+      "enum": [
+        "sent",
+        "received"
+      ]
+    },
+    "adresse": {
+      "type": "string"
+    },
+    "order": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::order.order"
+    }
+  }
+}
